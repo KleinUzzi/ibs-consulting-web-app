@@ -1,0 +1,33 @@
+.wrapper{
+    height: 600px;
+    background: url("/images/hero-image.jpg");
+    background-repeat:no-repeat;
+    /* background-position: center center; */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.wrapper h2{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 71px;
+    text-align: center;
+    color: #000000;
+    /* text-shadow: 2px 2px 4px #000000; */
+}
+
+.discoverButton{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FFFFFF;
+    background: #000000;
+    border-radius: 50px;
+    border: none;
+    margin-top: 30px;
+    padding: 2px 15px;
+}
+
