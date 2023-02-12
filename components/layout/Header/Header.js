@@ -21,7 +21,7 @@ const Header = () => {
   
   
   return (
-    <nav className={`navbar navbar-expand-lg navbar-light fix-top bg-light position-fixed w-100 ${classes.wrapper}`}>
+    <nav className={`navbar navbar-expand-lg navbar-light fix-top bg-white position-fixed w-100 ${classes.wrapper}`}>
   <div className="container">
     <Link className={`navbar-brand ${classes.brandWrapper}`} href="/"><img src="/images/IBS-logo.png" alt=""/><span className={classes.logoText}>IBS Consulting</span></Link>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
