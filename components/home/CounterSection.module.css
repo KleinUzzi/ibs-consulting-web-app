@@ -3,7 +3,7 @@
 }
 
 .countWrapper{
-    border-right: 1px solid #C5BEBE;
+    /* border-right: 1px solid #C5BEBE; */
     width: 80%;
     height: 170px;
     padding: 0 30px;
@@ -12,10 +12,11 @@
 .countWrapper .counter{
     font-style: normal;
     font-weight: 700;
-    font-size: 65px;
-    line-height: 93px;
+    font-size: 60px;
+    line-height: 83px;
     text-align: center;
     color: #000000;
+    border-bottom: 3px solid #00756A;
     /* width: 200px; */
 }
 
@@ -37,6 +38,7 @@
     text-align: center;
     letter-spacing: 0.1em;
     color: #000000;
+    margin-top: 10px;
     /* width: 200px; */
 }
 

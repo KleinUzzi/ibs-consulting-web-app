@@ -36,7 +36,7 @@ const Footer = ({marketplacePage}) =>{
        
         <div className={`container ${classes.wrapper}`}>
             <div className={`${classes.signupWrapper} d-flex flex-column justify-content-center align-items-center`}>
-                <h3>Ready to take the next step?</h3>
+                <h3>Ready to Win? Get Started with IBS.</h3>
                 <div className="row"><div className="col-6"><InputField label="First Name" required={true} onChange={(e) => setFirstName(e.target?.value)} value={firstName}  customClass={classes.halfField} type="text"/></div><div className="col-6"><InputField label="Last Name" required={true} onChange={(e) => setLastName(e.target?.value)} value={lastName} customClass={classes.halfField} type="text"/></div></div>
                 <InputField label="Email" required={true} onChange={(e) => setEmail(e.target?.value)} value={email} type="email"/>
 

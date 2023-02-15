@@ -1,4 +1,5 @@
 import '@/styles/globals.css'
+import '@/styles/slider.scss'
 import { useEffect } from 'react';
 import "bootstrap/dist/css/bootstrap.min.css";
 import Layout from '@/components/layout/Layout';

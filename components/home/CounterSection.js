@@ -6,27 +6,21 @@ import { useRef } from "react"
 const countData = [
     {
         number: 98,
-        desc: "acceptance rate as at Dec 2022",
+        desc: "Acceptance rate as of Jan 2023",
         frontSymbol:"",
         backSymbol: "%"
     },
     {
-        number: 151,
-        desc: "client work done (funding + salary)",
+        number: 800,
+        desc: "People serviced since 2020",
         frontSymbol:"",
         backSymbol: "+"
     },
     {
-        number: 1500,
-        desc: "clients services IBS completed in 2022",
+        number: 151,
+        desc: "in client funding & income secured",
         frontSymbol:"$",
         backSymbol: "M"
-    },
-    {
-        number: 20,
-        desc: "countries with clients served",
-        frontSymbol:"",
-        backSymbol: "+"
     }
 ]
 
@@ -43,9 +37,8 @@ const CounterSection = () => {
     return <div className={`${classes.wrapper} container`}>
         <div className="d-flex justify-content-center align-items-center" ref={myRef}>
         {inViewport && <div className="d-flex justify-content-between align-items-center ">
-            {countData.map((item, i) => <div className={`${classes.countWrapper} ${i === (countData.length - 1)  ? classes.noBorder : undefined}`} key={i}>
+            {countData.map((item, i) => <div className={`d-flex flex-column align-items-center ${classes.countWrapper} ${i === (countData.length - 1)  ? classes.noBorder : undefined}`} key={i}>
                 <div className="d-flex justify-content-center align-items-center">{item.frontSymbol && <span className={classes.counter}>{item.frontSymbol}</span>}<CountUp end={item.number} className={classes.counter}/>{item.backSymbol && <span className={classes.counter}>{item.backSymbol}</span>}</div>
-                {/* <h2>{item.number}</h2> */}
                 <div className={classes.descText}>{item.desc}</div>
             </div>)}
         </div>}
