@@ -1,4 +1,5 @@
 import Banner from '@/components/home/Banner'
+import ClientsSection from '@/components/home/ClientsSection'
 import CounterSection from '@/components/home/CounterSection'
 import HeroSection from '@/components/home/HeroSection'
 import IntroSection from '@/components/home/IntroSection'
@@ -17,8 +18,9 @@ export default function Home() {
       </Head>
       <HeroSection />
       <IntroSection />
-      {/* <Banner /> */}
       <CounterSection />
+      <ClientsSection />
+      {/* <Banner /> */}
       <Testimonial />
     </>
   )

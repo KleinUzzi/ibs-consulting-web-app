@@ -7,10 +7,10 @@ const IntroSection = () => {
         <div className="d-flex justify-content-center align-items-center">
           <div className={classes.introTextWrapper}>
             <div className={classes.introText}>
-              Your goals are 
+              Your goals are yours to set,
             </div>
             <img src="/images/intro-underline.svg" alt="" />
-            <h2>yours to set, but they are ours to accomplish.</h2>
+            <h2>but they are ours to accomplish.</h2>
           </div>
           <div className={classes.descWrapper}>
             <p>

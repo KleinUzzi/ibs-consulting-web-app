@@ -5,7 +5,7 @@
 .copyRightText{
     font-style: normal;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 20px;
     color: #C8C4C4;
 }
@@ -30,8 +30,8 @@
 .fieldWrapper h6{
     font-style: normal;
     font-weight: 600;
-    font-size: 20px;
-    line-height: 40px;
+    font-size: 14px;
+    line-height: 30px;
     align-items: center;
     text-align: center;
     color: #00756A;
@@ -48,8 +48,8 @@
 .signupButton{
     font-style: normal;
     font-weight: 700;
-    font-size: 20px;
-    line-height: 45px;
+    font-size: 16px;
+    line-height: 35px;
     color: #FFFFFF;
     background: #00756A;
     box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
@@ -62,8 +62,8 @@
 .signupWrapper h3{
     font-style: normal;
     font-weight: 700;
-    font-size: 40px;
-    line-height: 93px;
+    font-size: 30px;
+    line-height: 63px;
     text-align: center;
     color: #000000;
 }

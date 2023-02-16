@@ -15,7 +15,7 @@ const HeroSection = () => {
           speed={30} // Custom Speed from 1-99 - Default Speed: 40
           style={{
             fontWeight: "700",
-            fontSize: "51px",
+            fontSize: "41px",
             textAlign: "center",
             color: "#00756A",
           }}
