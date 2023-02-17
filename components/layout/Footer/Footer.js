@@ -110,7 +110,7 @@ const Footer = ({ marketplacePage }) => {
             type="email"
           />
 
-          <Textarea label="Message" required={true} onChange={(e) => setMessage(e.target?.value)} value={message}/>
+          <Textarea label="Message" required={false} onChange={(e) => setMessage(e.target?.value)} value={message}/>
 
           <button className={classes.signupButton} type="submit">
             Sign Up
