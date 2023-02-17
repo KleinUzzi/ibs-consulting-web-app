@@ -1,12 +1,12 @@
 .wrapper{
-    height: 670px;
+    height: 680px;
     padding-top: 60px;
 }
 
 .heroImage{
      background: url("/images/ibs-hero-image.jpeg");
      background-repeat:no-repeat;
-     background-position: 40% 40%;
+     background-position: 40% 5%;
      -webkit-background-size: cover;
      -moz-background-size: cover;
      -o-background-size: cover;

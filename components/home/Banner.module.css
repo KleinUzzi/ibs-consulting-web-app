@@ -23,7 +23,7 @@
     font-size: 16px;
     line-height: 32px;
     letter-spacing: 0.1em;
-    color: #FFFFFF;
+    color: #000000;
 }
 
 .approachCard h2{
@@ -31,7 +31,7 @@
     font-weight: 600;
     font-size: 30px;
     line-height: 33px;
-    color: #FFFFFF;
+    color: #000000;
     text-align: center;
     margin-bottom: 15px;
 }
