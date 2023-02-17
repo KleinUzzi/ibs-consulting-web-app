@@ -5,6 +5,7 @@ import classes from "./HeroSection.module.css";
 const HeroSection = () => {
   return (
     <div className={`${classes.wrapper} row`}>
+      <div className={`col-6 ${classes.heroImage}`}></div>
       <div className="col-6 d-flex flex-column justify-content-center align-items-center">
         <h2>We help students and <br />
             young professionals
@@ -28,7 +29,7 @@ const HeroSection = () => {
           <span className="ms-2">Discover our Services</span>
         </button>
       </div>
-      <div className={`col-6 ${classes.heroImage}`}></div>
+      
     </div>
   );
 };

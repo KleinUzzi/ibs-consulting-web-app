@@ -36,7 +36,7 @@ const Testimonial = () => {
     dots: true,
     infinite: true,
     speed: 500,
-    slidesToShow: 2,
+    slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 3000,
@@ -51,7 +51,7 @@ const Testimonial = () => {
         <h3 className={classes.titleText}>Testimonials</h3>
         <Slider {...settings}>
           {testimonials.map((item, i) => (
-            <div className={`${classes.testimonialWrapper} d-flex flex-column justify-content-center align-items-center`}  key={i}>
+            <div className={`${classes.testimonialWrapper} d-flex justify-content-center align-items-center`}  key={i}>
                 <div
                   className={classes.avatarImage}
                   style={{

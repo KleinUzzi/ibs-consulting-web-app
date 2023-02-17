@@ -18,9 +18,9 @@ export default function Home() {
       </Head>
       <HeroSection />
       <IntroSection />
+       <Banner />
       <CounterSection />
       <ClientsSection />
-      {/* <Banner /> */}
       <Testimonial />
     </>
   )

@@ -72,7 +72,7 @@ const ClientsSection = () => {
         <div className={`${classes.wrapper}  container`}>
             <h4>Our Clients get into some of the world’s most competitive schools & companies</h4>
             <div className={`row ${classes.logoWrapper} mt-5`}>
-            {clientsData.map((item, i) => (<div className="col-3" key={i} role="button">
+            {clientsData.map((item, i) => (<div className="col-3 d-flex justify-content-center align-items-center" key={i} role="button">
                 <img src={item.logo} alt=""/>
             </div>))}
             </div>
