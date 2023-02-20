@@ -1,0 +1,26 @@
+.wrapper{
+    padding: 120px 0 50px 0;
+}
+
+.sideMenu{
+    border-right: 1px solid #C5BEBE;
+    height: 80vh;
+}
+
+.sideMenu .menuTab{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+    margin: 15px 0;
+}
+
+.sideMenu .active{
+    font-weight: 600;
+}
+
+.questionWrapper{
+    padding-left: 40px;
+}
+

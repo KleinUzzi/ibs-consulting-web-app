@@ -1,0 +1,23 @@
+.wrapper{
+    margin-bottom: 40px;
+}
+
+.wrapper h3{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 43px;
+    color: #FFA99D;
+}
+
+.wrapper p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.wrapper p span{
+    font-weight: 700;
+}

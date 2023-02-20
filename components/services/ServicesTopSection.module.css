@@ -1,0 +1,33 @@
+.wrapper{ 
+    padding-top: 120px;
+}
+
+.coverImage{
+    background: url("/images/services-cover-image.jpg");
+    background-repeat:no-repeat;
+    background-position: 40% 20%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 500px;
+}
+
+.subText p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    color: #000000;
+}
+
+.subText p span{
+    font-weight: 600;
+}
+
+.subText{
+    margin-top: 50px;
+}

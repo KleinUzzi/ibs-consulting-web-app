@@ -5,7 +5,7 @@ import "slick-carousel/slick/slick-theme.css";
 
 const testimonials = [
   {
-    image: "/images/image-1.png",
+    image: "/images/samuel-aboagye.jpeg",
     name: "Samuel Kuma-Aboagye, Electrical Power Engineer, British Power",
     desc: "“I initially sought the help of IBS Consulting with one application for an Electrical Engineering masters program in the UK. While I got into my choice university, what I didn’t anticipate was getting into 10 other universities in the UK including Warwick, Sheffield, Strathclyde, and many more. Take my advice - Book these guys if you want to be spoiled for choice” ",
   },

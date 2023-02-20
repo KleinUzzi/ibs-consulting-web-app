@@ -1,24 +1,25 @@
 import Link from "next/link";
+import { useRouter } from "next/router";
 import classes from "./Header.module.css";
 
 const navList = [
   {
     name: "About Us",
-    link: "/"
+    link: "/about"
   },
   {
     name: "Services",
-    link: "/"
+    link: "/services"
   },
   {
     name: "FAQ",
-    link: "/"
+    link: "/faq"
   }
 ];
 
 const Header = () => {
 
-  
+  const router = useRouter();
   
   return (
     <nav className={`navbar navbar-expand-lg navbar-light fix-top bg-white position-fixed w-100 ${classes.wrapper}`}>
@@ -30,7 +31,7 @@ const Header = () => {
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
       <ul className="navbar-nav me-auto mb-2 mb-lg-0">
         {navList.map((item, i) => (<li className={`nav-item ${classes.navList}`} key={i}>
-          <Link className="nav-link active" aria-current="page" href="#" >{item.name}</Link>
+          <Link className={`nav-link ${router.pathname === item.link ? classes.active : undefined}`} aria-current="page" href={item.link} >{item.name}</Link>
         </li>))}
         
       </ul>

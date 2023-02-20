@@ -1,0 +1,37 @@
+.wrapper{
+    margin: 50px;
+}
+
+.wrapper h3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 41px;
+    line-height: 63px;
+    color: #00756A;
+}
+
+.iconWrapper{
+    width: 90px;
+    height: 90px;
+    background: #00756A;
+    border-radius: 100%;
+    margin-right: 20px;
+}
+
+.iconWrapper img{
+    width: 50px;
+}
+
+.infoWrapper{
+    margin-top: 20px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.1em;
+    color: #000000;
+}
+
+.infoWrapper p {
+    line-height: 30px;
+}
