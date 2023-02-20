@@ -25,7 +25,7 @@ const testimonials = [
     desc: "“In September 2020, I began seriously considering Graduate School and that is when I was introduced to IBS Consulting. Initially, I had 5 schools in mind that I wanted to apply to and booked their graduate school service for help with all the applications. I thoroughly enjoyed how involved I was in the entire process from drafting the essays to the final product. With their help, at the end of the application cycle, I had been awarded a $ 100,000 Forte Fellowship to pursue an MBA at George Washington University. They changed the entire trajectory of my academic life”: ",
   },
   {
-    image: "/images/marie-claire.jpeg",
+    image: "/images/claire.jpeg",
     name: "Marie-Claire Ayonote, Student at the University of Toronto.",
     desc: "“I had just started thinking about what I wanted to do after quitting my job at Tim Hortons when I booked IBS Consulting. I shared my end goal of securing another sales job and explained the confusion I faced on exactly how to get there. Not only did the IBS Consultants provide me with a tailored CV and cover letter within 72 hours but I was also subsequently called to interview at Mercedes Benz in Toronto, Royal Canadian Bank, and a few other reputable companies.”",
   },
@@ -58,6 +58,7 @@ const Testimonial = () => {
                     background: `url(${item.image})`,
                     backgroundRepeat: "no-repeat",
                     backgroundSize: "cover",
+                    backgroundPosition: i === testimonials.length - 1 && "40% 6%"
                   }}
                 ></div>
               <div
