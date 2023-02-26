@@ -1,0 +1,28 @@
+.wrapper{
+    padding: 120px 0 40px 0;
+}
+
+.company{
+    margin-bottom: 50px;
+}
+
+.titleText{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 63px;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.company p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0.1em;
+    color: #000000;
+    text-align: center;
+}

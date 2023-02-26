@@ -12,6 +12,10 @@ const navList = [
     link: "/services"
   },
   {
+    name: "Success Stories",
+    link: "/success"
+  },
+  {
     name: "FAQ",
     link: "/faq"
   }
