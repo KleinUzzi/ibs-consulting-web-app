@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'Pecita';
+    src: url('../../../public/fonts/Pecita.ttf.eot');
+    src: url('../../../public/fonts/Pecita.ttf.woff');
+    font-style: normal;
+}
+
 .wrapper{
     height: 514px; 
     width: 100%;
