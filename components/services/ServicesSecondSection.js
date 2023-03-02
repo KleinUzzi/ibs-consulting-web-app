@@ -3,8 +3,13 @@ import classes from "./ServicesSecondSection.module.css";
 
 const ServicesSecondSection = () => {
   return (
-    <div className={`${classes.wrapper} container`}>
-      <InfoContainer title={"Careers"} image={"suitcase.svg"}>
+    <div className={`${classes.wrapper}`}>
+      <div className={`${classes.rowWrapper} row w-100`}>
+      <div className={`col-5 ${classes.imageBg1}`}>
+
+</div>
+        <div className="col-7 px-5">
+        <InfoContainer title={"Careers"} image={"suitcase.svg"}>
         <p>
           Landing that dream job is a multi-step process, in which you need to
           show how you add value to the company in each stage.
@@ -24,7 +29,14 @@ const ServicesSecondSection = () => {
           <li>Interview Prep</li>
         </ul>
       </InfoContainer>
-      <InfoContainer title={"Grad School"} image={"magistrate.svg"}>
+        </div>
+        
+      </div>
+
+      <div className="row w-100 ">
+       
+        <div className="col-7 px-5">
+        <InfoContainer title={"Grad School"} image={"magistrate.svg"}>
         <p>
         We help you achieve your academic goals, getting into your desired universities, or keeping an outstanding performance.
         </p>
@@ -40,6 +52,13 @@ const ServicesSecondSection = () => {
           <li>APA Referencing</li>
         </ul>
       </InfoContainer>
+        </div>
+        <div className={`${classes.imageBg2} col-5`}>
+        
+        </div>
+      </div>
+      
+      
     </div>
   );
 };

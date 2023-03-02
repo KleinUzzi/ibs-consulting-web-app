@@ -1,4 +1,30 @@
 .wrapper{
-    margin: 60px 0;
+    /* padding: 60px 0; */
+    width: 100%;
 }
 
+.rowWrapper{
+    background: rgb(255,169,157, 0.2);
+}
+
+.imageBg1{
+    background: url("/images/career-image.jpg");
+    background-repeat:no-repeat;
+    background-position: 40% 20%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    /* height: 550px; */
+}
+
+.imageBg2{
+    background: url("/images/graduation-image.jpg");
+    background-repeat:no-repeat;
+    background-position: 40% 20%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    /* height: 550px; */
+}
