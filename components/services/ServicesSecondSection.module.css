@@ -4,7 +4,13 @@
 }
 
 .rowWrapper{
-    background: rgb(255,169,157, 0.2);
+    /* background: rgb(255,169,157, 0.2); */
+    background:#00756A;
+    color: #FFFFFF;
+}
+
+.rowWrapper p, .rowWrapper span, .rowWrapper ul li{
+    color: #FFFFFF;
 }
 
 .imageBg1{

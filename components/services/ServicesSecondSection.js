@@ -20,7 +20,7 @@ const ServicesSecondSection = () => {
           the recruiting process to move you in the right direction.
         </p>
 
-        In this area, we offer consulting concerning:
+        <span>In this area, we offer consulting concerning:</span>
         <ul>
           <li>Resumes</li>
           <li>Job Application Essays</li>
@@ -43,13 +43,18 @@ const ServicesSecondSection = () => {
 
         In this area, we offer consulting concerning:
         <ul>
-          <li>Document Preparation for Applications</li>
+          {/* <li>Document Preparation for Applications</li>
           <li>Academic Mentorship</li>
           <li>Homework Help/Research</li>
           <li>Thesis Assistance</li>
           <li>Grad School Recommendations</li>
           <li>Bibliographies</li>
-          <li>APA Referencing</li>
+          <li>APA Referencing</li> */}
+          <li>School CVs</li>
+          <li>Recommendation Letters</li>
+          <li>Statements of Purpose</li>
+          <li>Personal Statements</li>
+          <li>Scholarship Essays</li>
         </ul>
       </InfoContainer>
         </div>

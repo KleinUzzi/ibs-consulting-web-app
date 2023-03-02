@@ -11,7 +11,7 @@ const InfoContainer = ({title, image, children}) => {
         <div className={classes.infoWrapper}>
             {children}
         </div>
-        <button className={classes.joinButton} type="submit">Learn more</button>
+        <a href="https://www.schedulicity.com/scheduling/ICGE5D2/services?lt_utm_source=lt_share_link"  target="_blank" className={classes.joinButton} type="submit">Learn more</a>
     </div>)
 }
 export default InfoContainer 
