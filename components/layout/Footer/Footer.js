@@ -1,6 +1,3 @@
-import FacebookIcon from "@/icons/FacebookIcon";
-import InstagramIcon from "@/icons/InstagramIcon";
-import YouTubeIcon from "@/icons/YouTubeIcon";
 import { useState } from "react";
 import classes from "./Footer.module.css";
 
@@ -76,7 +73,7 @@ const Footer = ({ marketplacePage }) => {
   return (
     <div className={classes.wrapper}>
       <div className={`container`}>
-        <div
+        {/* <div
           className={`${classes.signupWrapper} d-flex flex-column justify-content-center align-items-center`}
         >
           <h3>Ready to Win? Get Started with IBS.</h3>
@@ -115,7 +112,7 @@ const Footer = ({ marketplacePage }) => {
           <button className={classes.signupButton} type="submit">
             Sign Up
           </button>
-        </div>
+        </div> */}
 
         <div
           className={`${classes.bottomFooter} d-flex justify-content-between align-items-center`}
@@ -124,9 +121,9 @@ const Footer = ({ marketplacePage }) => {
             © 2023, IBS Consulting Inc. All Rights Reserved.
           </div>
           <div>
-            <InstagramIcon />
-            <FacebookIcon />
-            <YouTubeIcon />
+            <img src="/images/twitter-icon.svg" alt="twitter icon" />
+            <img src="/images/facebook-icon.svg" alt="facebook icon" />
+            <img src="/images/linkedin-icon.svg" alt="linkedin icon" />
           </div>
         </div>
       </div>

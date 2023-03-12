@@ -36,7 +36,7 @@ const CounterSection = () => {
       
     return <div className={`${classes.wrapper} container`}>
         <div className="d-flex justify-content-center align-items-center" ref={myRef}>
-        {inViewport && <div className="d-flex justify-content-between align-items-center ">
+        {inViewport && <div className="d-flex justify-content-between align-items-center w-100">
             {countData.map((item, i) => <div className={`d-flex flex-column align-items-center ${classes.countWrapper} ${i === (countData.length - 1)  ? classes.noBorder : undefined}`} key={i}>
                 <div className="d-flex justify-content-center align-items-center">{item.frontSymbol && <span className={classes.counter}>{item.frontSymbol}</span>}<CountUp end={item.number} className={classes.counter}/>{item.backSymbol && <span className={classes.counter}>{item.backSymbol}</span>}</div>
                 <div className={classes.descText}>{item.desc}</div>

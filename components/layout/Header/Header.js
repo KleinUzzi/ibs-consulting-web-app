@@ -16,6 +16,14 @@ const navList = [
     link: "/success"
   },
   {
+    name: "Store",
+    link: "#"
+  },
+  {
+    name: "Resources",
+    link: "#"
+  },
+  {
     name: "FAQ",
     link: "/faq"
   }
@@ -33,14 +41,16 @@ const Header = () => {
       <span className="navbar-toggler-icon"></span>
     </button>
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+      <ul className="navbar-nav mx-auto mb-2 mb-lg-0">
         {navList.map((item, i) => (<li className={`nav-item ${classes.navList}`} key={i}>
           <Link className={`nav-link ${router.pathname === item.link ? classes.active : undefined}`} aria-current="page" href={item.link} >{item.name}</Link>
         </li>))}
         
       </ul>
+
+      <button className={classes.bookButton} type="submit">Book appointment</button>
       
-      <button className={classes.joinButton} type="submit">Join the Waitlist</button>
+      <button className={classes.joinButton} type="submit">Get started</button>
     </div>
   </div>
 </nav>

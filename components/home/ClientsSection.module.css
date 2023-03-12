@@ -1,12 +1,18 @@
+.wrapper{
+    background: #FBF6F1;
+    padding: 60px 0;
+}
+
 .wrapper h4{
     font-style: normal;
-    font-weight: 700;
-    font-size: 21px;
-    line-height: 33px;
+    font-weight: 500;
+    font-size: 29px;
+    line-height: 48px;
     text-align: center;
-    color: #000000;
+    color: #393939;
 }
 
 .logoWrapper img {
-    max-width: 150px;
+    max-width: 110px;
+    margin: 0 20px;
 }

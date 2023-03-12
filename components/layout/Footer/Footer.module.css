@@ -1,10 +1,16 @@
 .wrapper{
-    background: #00756A;
-    padding-top: 20px;
+    /* background: #00756A; */
+    /* padding-top: 20px; */
+    border-top: 1px solid #E4E4E4;
 }
 
 .bottomFooter{
     padding: 20px 0;
+}
+
+.bottomFooter img{
+    height: 38px;
+    margin: 0 5px;
 }
 
 .copyRightText{
@@ -12,8 +18,7 @@
     font-weight: 500;
     font-size: 14px;
     line-height: 20px;
-    /* color: #C8C4C4; */
-    color: #FFFFFF;
+    color: #393939;
 }
 
 .signupWrapper{

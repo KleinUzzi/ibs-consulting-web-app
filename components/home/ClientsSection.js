@@ -32,7 +32,11 @@ const clientsData = [
     {
         logo: "/images/logo-8.png",
         link: ""
-    },
+    }
+]
+
+
+const clientsData2 = [
     {
         logo: "/images/logo-9.png",
         link: ""
@@ -69,10 +73,15 @@ const clientsData = [
 
 const ClientsSection = () => {
     return (
-        <div className={`${classes.wrapper}  container`}>
-            <h4>Our Clients get into some of the world’s most competitive schools & companies</h4>
-            <div className={`row ${classes.logoWrapper} mt-5`}>
-            {clientsData.map((item, i) => (<div className="col-3 d-flex justify-content-center align-items-center" key={i} role="button">
+        <div className={`${classes.wrapper}`}>
+            <h4>Our Clients get into some of the world’s most competitive<br /> schools & companies</h4>
+            <div className={`d-flex justify-content-center align-items-center ${classes.logoWrapper} mt-5`}>
+            {clientsData.map((item, i) => (<div className="d-flex justify-content-center align-items-center" key={i} role="button">
+                <img src={item.logo} alt=""/>
+            </div>))}
+            </div>
+            <div className={`d-flex justify-content-center align-items-center ${classes.logoWrapper} mt-5`}>
+            {clientsData2.map((item, i) => (<div className="d-flex justify-content-center align-items-center" key={i} role="button">
                 <img src={item.logo} alt=""/>
             </div>))}
             </div>

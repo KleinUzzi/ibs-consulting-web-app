@@ -1,23 +1,20 @@
 .wrapper{
-    padding:90px 0;
+    padding:60px 0 40px 0;
 }
 
 .countWrapper{
     /* border-right: 1px solid #C5BEBE; */
-    width: 80%;
+    /* width: 80%; */
     height: 170px;
     padding: 0 30px;
 }
 
 .countWrapper .counter{
     font-style: normal;
-    font-weight: 700;
-    font-size: 50px;
-    line-height: 65px;
-    text-align: center;
-    color: #000000;
-    border-bottom: 3px solid #00756A;
-    /* width: 200px; */
+    font-weight: 600;
+    font-size: 95px;
+    line-height: 122px;
+    color: #393939;
 }
 
 .countWrapper h2{
@@ -33,13 +30,9 @@
 .descText{
     font-style: normal;
     font-weight: 400;
-    font-size: 15px;
-    line-height: 26px;
-    text-align: center;
-    letter-spacing: 0.1em;
-    color: #000000;
-    margin-top: 10px;
-    /* width: 200px; */
+    font-size: 20px;
+    line-height: 38px;
+    color: #555353;
 }
 
 .noBorder{
