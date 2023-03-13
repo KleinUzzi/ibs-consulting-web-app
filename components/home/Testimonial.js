@@ -61,8 +61,7 @@ function SamplePrevArrow(props) {
             style={{ ...style, display: "block", marginTop: "220px",  marginLeft: "62vw"}}
             onClick={onClick}
         >
-          <NextArrowIcon />
-            
+          <NextArrowIcon />  
         </div>
     );
 }
