@@ -1,27 +1,89 @@
 .wrapper{
-    /* padding: 60px 0; */
+    padding: 60px 0;
     width: 100%;
+    background: #FBF6F1;
 }
 
-.rowWrapper{
-    /* background: rgb(255,169,157, 0.2); */
-    background:#00756A;
+.wrapper h3{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 58px;
+    color: #393939;
+}
+
+.goalWrapper{
+    padding: 20px 0;
+    border-bottom: 1px solid #393939;
+}
+
+
+.goalContainer h4{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 34px;
+    color: #393939;
+}
+
+.activeGoal h4{
+    color: #00756A;
+}
+
+.goalWrapper p{
+    margin-top: 15px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    color: #555353;
+}
+
+.clientsSay{
+    margin-top: 60px;
+}
+
+.clientCard{
+    /* width: 754px; */
+    height: 377px;
+    background: #FF7865;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.16);
+    border-radius: 15px;
+    padding: 40px 30px;
+}
+
+.clientCard h5{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+.clientCard h6{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
     color: #FFFFFF;
 }
 
-.rowWrapper p, .rowWrapper span, .rowWrapper ul li{
+.clientCard p{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
     color: #FFFFFF;
 }
 
-.imageBg1{
-    background: url("/images/career-image.jpg");
-    background-repeat:no-repeat;
-    background-position: 40% 20%;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    /* height: 550px; */
+.avatarImage{
+    width: 70px;
+    height: 70px;
+    background: #D9D9D9;
+    margin-left: 20px;
+    border-radius: 100%;
+    flex: none;
 }
 
 .imageBg2{
